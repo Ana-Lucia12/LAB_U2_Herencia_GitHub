@@ -7,7 +7,7 @@
  *
  * @author Josue Castillo
  */
-package biblioteca;
+
 
 import java.util.Scanner;
 
@@ -118,7 +118,6 @@ public class Main {
                     Tesis tesis = new Tesis(
                             idTesis,
                             tituloTesis,
-                            true,
                             autorTesis,
                             universidad,
                             anio
@@ -143,11 +142,10 @@ public class Main {
                     System.out.print("Duracion minutos: ");
                     int minutos = sc.nextInt();
 
-                    Audiolibro audiolibro =
-                            new Audiolibro(
+                    AudioLibro audiolibro =
+                            new AudioLibro(
                                     idAudio,
                                     tituloAudio,
-                                    true,
                                     narrador,
                                     minutos
                             );

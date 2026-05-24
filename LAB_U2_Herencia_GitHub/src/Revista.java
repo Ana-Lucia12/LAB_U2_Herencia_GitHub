@@ -14,7 +14,7 @@ public class Revista extends Material {
     private String mesPublicacion;
     
     //Cosntructor de la clase 
-    public Revista(int id, String titulo, int numeroEdicion, String mesPublicacion) {
+    public Revista(int id, String titulo, boolean disponible, int numeroEdicion, String mesPublicacion) {
         super(id, titulo, true);
         
         //Iniciar atributos

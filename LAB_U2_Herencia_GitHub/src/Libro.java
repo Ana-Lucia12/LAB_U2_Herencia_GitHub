@@ -16,7 +16,7 @@ public class Libro extends Material {
     private Genero genero;
     
     // Constructor de la clase Libro
-    public Libro (int id, String titulo, String autor, int cantidadPaginas, Genero genero ) {
+    public Libro (int id, String titulo,boolean disponible, String autor, int cantidadPaginas, Genero genero ) {
         
         //Llama al constructor de la superclase
         super(id, titulo, true);    
