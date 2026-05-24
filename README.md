@@ -5,9 +5,9 @@ Sistema de gestión de materiales de biblioteca desarrollado en Java aplicando p
 
 ## Integrantes
 - Ana Lucia Vargas
-- Nombre Integrante 1
-- Nombre Integrante 2
-- Nombre Integrante 3
+- Yariela Matarrita
+- Veronica Amador
+- Denison Josue Castillo
 
 ## Instrucciones de ejecución
 1. Abrir el proyecto en NetBeans.
